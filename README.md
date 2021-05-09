@@ -3,7 +3,7 @@ The essential idea is the following: one entity contains references to the other
 
 For example: AuthorsService provides the list of authors. Every author may have a set of books. The list of books is stored in the other repository. Author knows Ids of its books. GraphQL Gateway exchanges these IDs for books coming from BooksService. 
 
-It turns out that there are some deserialization issues during loading a referenced entities from the other schema by a set of Ids. The type doesn't matter, it may be GUID, int, string.
+It turns out that there are some deserialization issues during loading referenced entities from the other schema by a set of Ids. The type doesn't matter, it may be GUID, int, string.
 
 
 Do the following steps to reproduce the issue:
