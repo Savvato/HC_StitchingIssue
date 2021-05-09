@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "Gateway": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5003",
+      "launchUrl": "http://localhost:5003/graphql",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

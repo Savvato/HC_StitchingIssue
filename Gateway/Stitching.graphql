@@ -1,0 +1,3 @@
+﻿extend type Author {
+	books: [Book] @delegate(schema: "booksService", path: "books(bookIds: $fields:bookIds)")
+}
